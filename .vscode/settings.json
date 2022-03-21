@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.ush": "hlsl",
+        "*.usf": "hlsl",
+        "iostream": "cpp",
+        "xstring": "cpp"
+    }
+}
