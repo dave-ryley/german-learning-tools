@@ -3,6 +3,8 @@
         "*.ush": "hlsl",
         "*.usf": "hlsl",
         "iostream": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "cstdio": "cpp",
+        "string": "cpp"
     }
 }
