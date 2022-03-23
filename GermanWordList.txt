@@ -1,2 +1,18 @@
 Male Humans and Animals: der Arzt / the doctor, der Hahn / the rooster, der Löwe / the lion, der Bock / the buck
+Seasons, Months, Days of the Week: der Sommer / the summer, der Januar / January, der Montag / Monday
+Winds, Weather, Points of the Compass: der Föhn / the hair dryer, der Nebel / the fog, der Schnee / the snow, der Norden / the north
+Rocks, Minerals: der Granit / the granite, der Diamant / the diamond
+Alcoholic and Plant-Based Drinks: der Gin / the gin, der Kakao / the cocoa
+Makes of Car: der BMV (auto) / the BMW, der Audi / the Audi, der Mercedes / the Mercedes
+Rivers OUTSIDE Germany: der Ganges / The Ganges, der Nil / the Nile, der Severn / der Severn
+Monetary Units: der Euro / the Euro, der Dollar / the Dollar, der Franken / the Franc
+Mountains, Mountain Ranges: der Brocken / the Brocken (Mountain in Germany), der Spessart / the Spessart (Mountain Range in Germany)
+
 Female Humans and Animals: die Frau / the woman, die Henne / the hen, die Löwin / the lioness, die Sau / the sow
+Aeroplanes, Motorbikes, Ships: die Boeing / the Boeing, die BMV (motorrad) / the BMV (motorbike), die "Bismarck" / the "Bismarck"
+Rivers INSIDE Germany: die Weser / the Weser, die Donau / the Donau, die Maas / the Maas, die Memel / the Memel
+Names of Numerals: die Eins / one, die Vier / four, die Milliarde / billion
+
+Young Humans and Animals: das Baby / the Baby, das Kind / the child, das Ferkel / the piglet, Das Lamm / the lamb
+Metals, Chemicals, Scientific Units: das Gold / the gold, das Eisen / the iron, das Asprin / the asprin, das Volt / the Volt
+Letters of the Alphabet, Musical Notes: das A / A, das Ypsilon / Epsilon, das hohe C / the high C
