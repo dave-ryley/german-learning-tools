@@ -16,3 +16,4 @@ Names of Numerals: die Eins / one, die Vier / four, die Milliarde / billion
 Young Humans and Animals: das Baby / the Baby, das Kind / the child, das Ferkel / the piglet, Das Lamm / the lamb
 Metals, Chemicals, Scientific Units: das Gold / the gold, das Eisen / the iron, das Asprin / the asprin, das Volt / the Volt
 Letters of the Alphabet, Musical Notes: das A / A, das Ypsilon / Epsilon, das hohe C / the high C
+Other Parts of Speech used as Nouns: das Stehen / the standing, das Aber / the but, das moderne Deutsch / the modern german
