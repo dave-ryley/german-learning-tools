@@ -33,8 +33,11 @@ void parseEntry(string line)
         size_t determinerIndex = word.find(" "); // Just get the first word, i.e. "der"
         string determiner = word.substr(0, determinerIndex);
         size_t translationIndex = word.find(translationDelimiter);
-        string translation = word.substr(translationIndex + translationDelimiter.length(), word.length());
-        word.erase(translationIndex, word.length());
+        string translation = (translationIndex != -1) ? word.substr(translationIndex + translationDelimiter.length(), word.length()) : "";
+        if (translationIndex > -1)
+        {
+            word.erase(translationIndex, word.length());
+        }
         word.erase(0, determinerIndex + 1);
         line.erase(0, substringEndIndex + wordDelimiter.length());
         words.push_back(WordEntry{determiner, word, translation, explanation});
@@ -43,6 +46,15 @@ void parseEntry(string line)
         // printf("%s|\n", translation.c_str());
     }
     // printf("%s\n", explanation.c_str());
+}
+
+void printWordEntryInfo(WordEntry wordEntry)
+{
+    if(!wordEntry.translation.empty())
+    {
+        printf("English: %s.\n", wordEntry.translation.c_str());
+    }
+    printf("Rule: %s\n", wordEntry.explanation.c_str());
 }
 
 int main(int argc, char** argv)
@@ -86,12 +98,14 @@ int main(int argc, char** argv)
             else if(response == "3") responseDeterminer = "das";
             if(responseDeterminer == wordEntry.determiner)
             {
-                printf("!! Correct !! %s %s.\nEnglish: %s.\nRule: %s\n", wordEntry.determiner.c_str(), wordEntry.word.c_str(), wordEntry.translation.c_str(), wordEntry.explanation.c_str());
+                printf("!! Correct !! %s %s.\n", wordEntry.determiner.c_str(), wordEntry.word.c_str());
+                printWordEntryInfo(wordEntry);
                 score++;
             }
             else
             {
-                printf("!!! Incorrect !!! %s %s.\nEnglish: %s.\nRule: %s\n", wordEntry.determiner.c_str(), wordEntry.word.c_str(), wordEntry.translation.c_str(), wordEntry.explanation.c_str());
+                printf("!!! Incorrect !!! %s %s.\n", wordEntry.determiner.c_str(), wordEntry.word.c_str());
+                printWordEntryInfo(wordEntry);
             }
             printf("Score: %d/%d\n", score, questionNum);
             questionNum++;
